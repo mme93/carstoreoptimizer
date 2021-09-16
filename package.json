@@ -5,11 +5,11 @@
     "homepage": "https://ionicframework.com/",
     "scripts": {
         "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
-        "e2e": "ng e2e",
-        "start": "ng --max_old_space_size=4096 start",
-        "build": "ng --max_old_space_size=4096 build"
+        "e2e": "ng e2e"
     },
     "private": true,
     "dependencies": {
